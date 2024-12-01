@@ -7,7 +7,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $age = $_POST['age'];
     $date_of_appointment = $_POST['date_of_appointment'];
 
-    $sql = "INSERT INTO `info`(`id`, `last_name`, `first_name`, `age`, `date_of_appointment`)
+    $sql = "INSERT INTO `guest`(`id`, `last_name`, `first_name`, `age`, `date_of_appointment`)
             VALUES (NULL,'$last_name','$first_name','$age','$date_of_appointment')";
 
     if($conn->query($sql) === TRUE){
