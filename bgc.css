@@ -1,0 +1,70 @@
+/* Appointment box styling */
+.appointment-box {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text within the box */
+}
+
+/* Heading style */
+h1 {
+    margin-bottom: 20px;
+    color: #ff00b7; /* Pink color */
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left; /* Align labels and inputs to the left */
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s; /* Smooth border transition */
+}
+
+/* Input focus effect */
+input:focus {
+    border-color: #4CAF50; /* Change border color on focus */
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff00e1; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #efaaff; /* Darker green */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .appointment-box {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
